@@ -32,6 +32,9 @@ const Home = () => {
             />
         </div>
       </div>
+      <div className='scroll'>
+        <div className="icon-scroll"></div>
+      </div>
     </div>
   );
 };
