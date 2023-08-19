@@ -1,0 +1,51 @@
+{
+    "translation": {
+        "navbar.home": "INÍCIO",
+        "navbar.about": "SOBRE",
+        "navbar.projects": "PROJETOS",
+        "navbar.contact": "CONTATO",
+        "navbar.spotify": "Playlist no Spotify",
+
+        "home.type.line-1": "Hello World!",
+        "home.type.line-2": "Seja bem-vindo ao nosso site!",
+        "home.type.line-3": "Confira nossos projetos!",
+        "home.type.line-4": "Vamos criar um projeto <strong>incrivel</strong> para você!",
+
+        "about.title": "Quem nós somos?",
+        "about.description": "Somos uma startup de desenvolvimento de software focada em soluções tecnológicas que ajudam as empresas a melhorar a eficiência, a produtividade e a satisfação do cliente. Nossa equipe de desenvolvedores experientes utiliza as melhores práticas de desenvolvimento de software para criar sitemas web que atendam às necessidades dos nossos clientes.",
+        "stack.title": "Nossas habilidades",
+
+        "projects.title": "Conheça nossos projetos",
+        "projects.description": "Aqui você vai encontrar alguns projetos que desenvolvemos para nossos clientes, todos prontamente pensados para cada necessidade.",
+
+        "project.dl.saude": "DL Saúde",
+        "project.dl.description": "Uma landing-page projetada para o evento da dl saúde.",
+
+
+        "project.swiftbuy": "Swiftbuy",
+        "project.swiftbuy.description": "Uma pagina de e-commerce feita em conjunto para o portfolio.",
+        
+        "project.visit": "Visitar",
+        "project.source-code": "Código fonte",
+
+        "contact.title": "Contato",
+        "contact.description": "Para solicitar um orçamento ou tirar dúvidas sobre os serviços da TheCodeStudios, preencha o formulário abaixo ou entre em contato por uma de nossas redes sociais. Responderemos sua mensagem o mais breve possível.",
+
+        "contact.form.name": "Nome",
+        "contact.form.name.description": "Digite o seu nome completo",
+
+        "contact.form.email": "E-mail",
+        "contact.form.email.description": "Digite o seu e-mail",
+
+        "contact.form.phone": "Telefone",
+        "contact.form.phone.description": "Digite o seu telefone",
+
+        "contact.form.message": "Mensagem",
+        "contact.form.message.description": "Digite sua mensagem",
+
+        "contact.form.send.button": "Enviar",
+
+        "footer.copyright": "2023 Todos os direitos reservados. The Code Studios."
+
+    }
+}
