@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import logo from '../assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons';
@@ -21,10 +21,30 @@ const NavBar = () => {
       }
       setIsMenuClicked(!isMenuClicked)
   }
+
+  // behavior navbar (hide / show)
+
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    const shouldShow = prevScrollPos > currentScrollPos;
+
+    setPrevScrollPos(currentScrollPos);
+    setVisible(shouldShow);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
   
 
   return (
-    <header className="navbar">
+      <header className={`navbar ${visible ? '' : 'hidden'}`}>
         <a href="#home">
           <img src={logo} alt="" />
         </a>
@@ -47,7 +67,7 @@ const NavBar = () => {
             </a>
           </li>
         </ul>
-    </header>
+      </header>
   );
 };
 
